@@ -342,7 +342,7 @@ a, a:hover {
 }
 
 .slider-section .carousel .carousel-indicators {
-  bottom: 40px;
+  bottom: 40px !important;
 }
 
 .slider-section .carousel .carousel-indicators li {
