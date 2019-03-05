@@ -341,6 +341,10 @@ a, a:hover {
   color: #ffffff;
 }
 
+.slider-section .carousel .carousel-indicators {
+  bottom: 40px;
+}
+
 .slider-section .carousel .carousel-indicators li {
   width: 15px;
   height: 15px;
