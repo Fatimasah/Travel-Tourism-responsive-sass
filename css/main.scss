@@ -196,7 +196,98 @@ a, a:hover {
         }
     }
     /* end nav */
-
+    .carousel {
+        .carousel-inner {
+            .carousel-item {
+                img{
+                    max-height: 654px;
+                }
+                .carousel-caption {
+                    bottom: 25%;
+                    flex-direction: column;
+                    align-items: center;
+                    font-family: 'lato-reg';
+                    h1 {
+                        font-size: 60px;
+                        @media (max-width: 992px) {
+                            font-size: 40px;
+                        }
+                        @media (max-width: 768px) {
+                            font-size: 20px;
+                        }
+                    }
+                    .caption-p {
+                        font-size: 22px;
+                        @media (max-width: 992px) {
+                            font-size: 18px;
+                        }
+                        @media (max-width: 768px) {
+                            font-size: 15px;
+                        }
+                    }
+                    .search {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: baseline;
+                        font-size: 14px;
+                        background-color: $whiteColor;
+                        border-radius: 20px;
+                        max-height: 40px;
+                        @media (max-width: 768px) {
+                            display: none;
+                        }
+                        p {
+                            margin-left: 50px;
+                            color: $grayColor;
+                            padding-right: 50px;
+                            white-space: nowrap;
+                            @media (max-width: 992px) {
+                                margin-left: 15px;
+                                padding-right: 15px;
+                            }
+                            &:not(:last-of-type) {
+                                border-right: 1px solid $grayColor;
+                            }
+                            span  {
+                                &:not(:last-of-type) {
+                                    margin-right: 25px;
+                                }
+                            }
+                            i {
+                                    margin-right: 25px;
+                                }
+                        }
+                        .search-btn {
+                            background-color: $mainGreenColor;
+                            line-height: 2.73;
+                            padding-right: 50px;
+                            padding-left: 25px;
+                            border-radius: 0px 20px 20px 0;
+                            button{
+                                border: none;
+                                background-color: unset;
+                                font-family: 'lato-reg';
+                                font-size: 14px;
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .carousel-indicators {
+            li {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: $whiteColor;
+                &.active {
+                    border: 3px solid $mainGreenColor;
+                }
+            }
+        }
+    }
 }
 /* end slider */
 
