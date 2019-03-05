@@ -16,7 +16,7 @@
 
 <body>
     <!--================================================= 
-        *  Code By : Fatima Sahmoud                             
+        *  Coded By : Fatima Sahmoud                             
         *  skype ==> fatimasahmoud                          
         *  Github ===> https://github.com/Fatimasah            
         *  Phone ==> +970592103594                   
@@ -25,9 +25,49 @@
     <!-- start slider section  -->
     <div class="slider-section " id="home">
         <!-- start navbar -->
-
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-md-4 py-2 " id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/logo.png" alt="logo img">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainnav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-md-3 px-2"> <a href="#home" class="nav-link text-uppercase">Home</a></li>
+                        <li class="nav-item px-md-3 px-2"> <a href="#hotTour" class="nav-link text-uppercase active">tours</span></a> </li>
+                        <li class="nav-item px-md-3 px-2"> <a href="#whyUs" class="nav-link text-uppercase">about</a> </li>
+                        <li class="nav-item px-md-3 px-2"> <a href="#testamonials" class="nav-link text-uppercase">pages</a> </li>
+                        <li class="nav-item px-md-3 px-2"> <a href="#explore" class="nav-link text-uppercase">gallery</a> </li>
+                        <li class="nav-item px-md-3 px-2"> <a href="#fastest" class="nav-link text-uppercase">blog</a> </li>
+                        <li class="nav-item px-md-3 px-2"> <a href="#contact" class="nav-link text-uppercase">contacts</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!-- end navbar -->
 
+        <!-- start slider  -->
+        <div id="main-slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imgs/slider/slider01.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex ">
+                        <h1>Bringing fresh ideas from</h1>
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <!-- <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+                <li data-target="#main-slider" data-slide-to="3"></li>
+                <li data-target="#main-slider" data-slide-to="4"></li> -->
+            </ol>
+        </div>
+        <!-- end slider  -->
     </div>
     <!-- end slider section  -->
 
@@ -260,26 +300,150 @@
     </section>
     <!-- end testamonials -->
 
+    <!-- start explore the distant -->
+    <section class="explore" id="explore">
+        <div class="explore-img">
+            <img src="imgs/explore-bkground.png" alt="explore-bkground" class="w-100">
+            <div class="img-details text-uppercase text-right">
+                <h2>explore the distant corners of the world</h2>
+                <div class="view-all text-uppercase text-center mt-1 ">
+                    <a href="#hotTour">find your perfect tour</a>
+                </div>
+            </div>
+        </div>
+        <div class="explore-num my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-6">
+                        <div class="explore-box my-5 text-center">
+                            <i class="fa fa-user"></i>
+                            <h4>624</h4>
+                            <p class="text-uppercase">happy clients</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="explore-box my-5 text-center">
+                            <i class="fa fa-user"></i>
+                            <h4>112</h4>
+                            <p class="text-uppercase">amazing tours</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="explore-box my-5 text-center">
+                            <i class="fa fa-user"></i>
+                            <h4>595</h4>
+                            <p class="text-uppercase">partners</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="explore-box my-5 text-center">
+                            <i class="fa fa-user"></i>
+                            <h4>09</h4>
+                            <p class="text-uppercase">questions answered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end explore the distant -->
+
+    <!-- start fastest way -->
+    <section class="fastest" id="fastest">
+        <div class="explore-img">
+            <img src="imgs/fastest-bkground.png" alt="fastest-bkground" class="w-100">
+            <div class="img-details text-left">
+                <h2>Fastest Way to Compare and Book over 450 Cheap Flights</h2>
+                <div class="view-all text-uppercase text-center mt-1 ">
+                    <a href="#hotTour">find your flight</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end fastest way  -->
+
+    <!-- start footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5 order-lg-1 order-1">
+                    <div class="first">
+                        <a href="#home">
+                            <img src="imgs/logo-dark.png" alt="logo dark">
+                        </a>
+                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-8 mt-2 mb-lg-0 mb-5 order-lg-2 order-3 mx-auto">
+                    <div class="second">
+                        <h5>Our Contacts</h5>
+                        <div class="second-info d-flex">
+                            <ul class="list-unstyled w-50  mr-4">
+                                <div class="info">
+                                    <i class="fa fa-map-marker mr-2"></i>
+                                    <li>Your address will be here NY 123456 USA</li>
+                                </div>
+                                <div class="info">
+                                    <i class="fa fa-phone mr-2"></i>
+                                    <li>+000 123 456 789</li>
+                                </div>
+
+                            </ul>
+                            <ul class="list-unstyled w-50">
+                                <div class="info">
+                                    <i class="fa fa-mobile mr-2"></i>
+                                    <li>+000 123 456 789</li>
+                                </div>
+                                <div class="info">
+                                    <i class="fa fa-envelope mr-2"></i>
+                                    <li>your email@email.com</li>
+                                </div>
+                                <div class="info">
+                                    <i class="fa fa-globe mr-2"></i>
+                                    <li>www.website.com</li>
+                                </div>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5 order-lg-3 order-2">
+                    <div class="follow-us">
+                        <h5>Follow Us</h5>
+                        <div class="follow-info mb-3">
+                            <span><i class="fa fa-facebook"></i></span>
+                            <span><i class="fa fa-twitter"></i></span>
+                            <span><i class="fa fa-youtube"></i></span>
+                            <span><i class="fa fa-linkedin"></i></span>
+                        </div>
+                        <div class="view-all text-uppercase text-center mt-1 w-100">
+                            <a href="#home">subscribe</a>
+                        </div>
+                    </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="copyright text-md-left text-center">
+                        <p>Copyright &copy; 2017 Travel and Tourism.All Right Reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-menu  text-md-right text-center">
+                        <span class="mr-3">Privacy Policy</span>
+                        <span class="mr-3">Terms of Use</span>
+                        <span class="">Contact Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
 
     <!-- jquery js -->
     <script src="js/jquery-3.3.1.min.js"></script>
